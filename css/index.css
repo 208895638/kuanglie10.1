@@ -1,0 +1,289 @@
+@charset "UTF-8";
+body, html {
+  background: #100c09;
+  min-width: 1200px;
+  width: 100%;
+  height: 100%; }
+
+#rocket-to-top {
+  background: url("../images/rocket_button_up.png") no-repeat scroll 0 0 transparent;
+  cursor: default;
+  display: block;
+  height: 250px;
+  margin: -125px 0 0;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  right: 0;
+  top: 80%;
+  width: 149px;
+  z-index: 11; }
+  #rocket-to-top div {
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 149px; }
+  #rocket-to-top .level-2 {
+    background: url("../images/rocket_button_up.png") no-repeat scroll -149px 0 transparent;
+    display: none;
+    height: 250px;
+    opacity: 0;
+    z-index: 1; }
+  #rocket-to-top .level-3 {
+    background: none repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 150px;
+    z-index: 2; }
+
+.kl {
+  width: 100%;
+  height: 4983px;
+  background: url(../images/kl_bg.png) no-repeat center; }
+  .kl .top {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 783px;
+    height: 139px;
+    text-align: center; }
+    .kl .top .logo {
+      width: 100%;
+      position: absolute;
+      top: 46px;
+      left: 0; }
+      .kl .top .logo h4 {
+        font: 18px/110px "微软雅黑";
+        color: #fff6d3; }
+        .kl .top .logo h4 a {
+          color: #fff6d3;
+          margin: 0 10px; }
+    .kl .top ul {
+      display: inline-block; }
+      .kl .top ul li {
+        width: 246px;
+        height: 89px;
+        margin: 0 14px; }
+        .kl .top ul li a {
+          display: block;
+          text-align: center;
+          font: 29px/89px "微软雅黑";
+          color: #6c3c1a;
+          width: 246px;
+          text-indent: 2em;
+          height: 89px; }
+        .kl .top ul li .gw {
+          background: url(../images/kl_fir_gw.png) no-repeat center;
+          background-size: cover; }
+        .kl .top ul li .gw:hover {
+          background: url(../images/kl_fr_gw_hover.png) no-repeat center;
+          background-size: cover;
+          color: #6e3e1b; }
+        .kl .top ul li .login {
+          background: url(../images/kl_fir_dl.png) no-repeat center;
+          background-size: cover; }
+        .kl .top ul li .login:hover {
+          background: url(../images/kl_fr_dl_hover.png) no-repeat center;
+          background-size: cover;
+          color: #6e3e1b; }
+        .kl .top ul li .register {
+          background: url(../images/kl_fir_dl.png) no-repeat center;
+          background-size: cover; }
+        .kl .top ul li .regHide {
+          display: none; }
+    .kl .top h3 {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      font: 24px/40px "微软雅黑";
+      color: #0c2249;
+      top: 832px;
+      transform: rotate(-3deg); }
+  .kl .firCon h2 img {
+    height: 34px;
+    padding: 40px 0;
+    margin: 0 auto; }
+  .kl .firCon .text {
+    width: 1090px;
+    padding-left: 110px;
+    margin: 0 auto; }
+    .kl .firCon .text li {
+      font: 15px/33px "微软雅黑";
+      color: #ab9678; }
+  .kl .firCon .welfare {
+    margin-top: 42px;
+    text-align: center; }
+    .kl .firCon .welfare li {
+      width: 180px;
+      height: 221px;
+      background: url(../images/kl_super_bg.png) no-repeat center;
+      background-size: cover;
+      display: inline-block;
+      margin: 0 57px; }
+      .kl .firCon .welfare li dl {
+        width: 180px; }
+        .kl .firCon .welfare li dl dt {
+          width: 180px;
+          height: 126px; }
+          .kl .firCon .welfare li dl dt img {
+            height: 76px; }
+        .kl .firCon .welfare li dl dd {
+          font: 16px/30px "微软雅黑";
+          color: #bba484; }
+  .kl .firCon h3 {
+    font: 17px/129px "微软雅黑";
+    color: #564a3c;
+    text-align: center; }
+  .kl .secCon h2 {
+    margin-bottom: 28px; }
+    .kl .secCon h2 img {
+      height: 36px;
+      padding: 20px 0;
+      margin: 0 auto; }
+  .kl .secCon p {
+    font: 15px/27px "微软雅黑";
+    color: #bba484;
+    text-align: center; }
+  .kl .secCon .welfare {
+    margin: 42px auto;
+    text-align: center;
+    width: 1200px; }
+    .kl .secCon .welfare li {
+      width: 180px;
+      height: 221px;
+      background: url(../images/kl_super_bg.png) no-repeat center;
+      background-size: cover;
+      display: inline-block;
+      margin: 0 33px; }
+      .kl .secCon .welfare li dl {
+        width: 180px; }
+        .kl .secCon .welfare li dl dt {
+          width: 180px;
+          height: 126px; }
+          .kl .secCon .welfare li dl dt img {
+            height: 84px; }
+        .kl .secCon .welfare li dl dd {
+          font: 16px/30px "微软雅黑";
+          color: #bba484; }
+    .kl .secCon .welfare .welL {
+      margin-left: 0; }
+    .kl .secCon .welfare .welR {
+      margin-right: 0; }
+  .kl .secCon h3 {
+    text-align: center;
+    margin-bottom: 88px; }
+    .kl .secCon h3 a {
+      display: inline-block;
+      width: 179px;
+      font: 23px/61px "微软雅黑";
+      color: #683c1a;
+      text-align: center;
+      height: 61px;
+      background: url(../images/sec_btn.png) no-repeat center; }
+  .kl .thrCon h2 {
+    margin-bottom: 28px; }
+    .kl .thrCon h2 img {
+      height: 35px;
+      padding: 53px 0;
+      margin: 0 auto; }
+  .kl .thrCon p {
+    font: 14px/34px "微软雅黑";
+    color: #bba484;
+    text-align: center;
+    margin-bottom: 45px; }
+  .kl .thrCon .content {
+    width: 1200px;
+    margin: 0 auto; }
+    .kl .thrCon .content .per {
+      width: 1198px;
+      border: 1px solid #584836;
+      margin: 0 auto 30px;
+      background: #1f1711; }
+      .kl .thrCon .content .per .gift {
+        width: 924px;
+        border-right: 1px solid #584836;
+        margin: 27px 0;
+        text-align: center; }
+        .kl .thrCon .content .per .gift li {
+          background: url(../images/three_bg.png) no-repeat center;
+          background-size: cover;
+          width: 152px;
+          height: 138px;
+          display: inline-block;
+          margin: 0 10px; }
+          .kl .thrCon .content .per .gift li dl {
+            width: 152px;
+            height: 138px; }
+            .kl .thrCon .content .per .gift li dl dt {
+              width: 152px;
+              height: 106px; }
+              .kl .thrCon .content .per .gift li dl dt img {
+                width: 81px; }
+            .kl .thrCon .content .per .gift li dl dd {
+              font: 16px/32px "微软雅黑";
+              color: #e3dbb8;
+              background: rgba(0, 0, 0, 0.3); }
+      .kl .thrCon .content .per .grade {
+        width: 270px;
+        margin: 27px 0; }
+        .kl .thrCon .content .per .grade .btn {
+          height: 50px;
+          text-align: center;
+          margin: 10px; }
+          .kl .thrCon .content .per .grade .btn a {
+            display: block;
+            width: 141px;
+            height: 50px;
+            text-align: center;
+            font: 24px/50px "微软雅黑";
+            color: #543116;
+            margin: 0 auto; }
+          .kl .thrCon .content .per .grade .btn .btnHide {
+            display: none; }
+          .kl .thrCon .content .per .grade .btn .lq {
+            background: url(../images/sec_btn.png) no-repeat center;
+            background-size: cover; }
+          .kl .thrCon .content .per .grade .btn .ylq {
+            background: url(../images/thr_ylq.png) no-repeat center;
+            background-size: cover;
+            color: #423f3f; }
+        .kl .thrCon .content .per .grade li {
+          font: 16px/32px "微软雅黑";
+          color: #bba484;
+          text-align: center; }
+  .kl .fouCon h2 {
+    margin-top: 137px; }
+    .kl .fouCon h2 img {
+      height: 35px;
+      padding: 4px 0;
+      margin: 0 auto; }
+  .kl .fouCon p {
+    font: 15px/93px "微软雅黑";
+    color: #bba484;
+    text-align: center; }
+  .kl .fouCon .link {
+    width: 920px;
+    margin: 0 auto; }
+    .kl .fouCon .link h3 {
+      width: 716px;
+      height: 62px;
+      border: 1px solid #584836;
+      color: #584836;
+      font: 18px/62px "微软雅黑";
+      text-align: center; }
+    .kl .fouCon .link h4 {
+      width: 178px;
+      height: 64px;
+      margin-left: 16px; }
+      .kl .fouCon .link h4 a {
+        width: 178px;
+        height: 64px;
+        display: block;
+        background: url(../images/sec_btn.png) no-repeat center;
+        background-size: cover;
+        font: 24px/64px "微软雅黑";
+        color: #8a683c;
+        text-align: center; }
